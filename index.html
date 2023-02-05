@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Revisão HTML</title>
+</head>
+
+<body id="inicio" style="background-color: lightgray;">
+
+    <!-- Div usada para criar uma divisória na tela (parecendo folha A4)-->
+
+    <div
+        style="text-align: justify; margin-left: 400px; margin-right: 200px; background-color: white; padding: 50px; box-shadow: 2px 2px 3px gray;">
+
+        <!-- Título Principal -->
+
+        <h1 style="text-align: center;">
+            <small>RESUMO SOBRE O CURSO DE
+
+                <!-- A tag 'font' foi descontinuada. formatação mais indicada é pelo CSS-->
+
+                <font color="gray" face="Verdana, Geneva, sans-serif" size="+2">
+                    <u>HTML</u>
+                </font>
+            </small>
+        </h1>
+        <hr />
+
+        <!-- Div usado para criar uma divisória para menu-->
+
+        <div
+            style="color: white;width: 200px; position:fixed;top: 0px; left: 1px;background-color:rgb(63, 63, 63); box-shadow: 2px 2px 3px gray;">
+            <div style="float: left; width: 10px; height: 1000px; background-color:rgb(143, 0, 0);;">
+            </div>
+            <ul style="list-style: none;">
+                <li style="padding: 10px; background-color: rgb(143, 0, 0);">
+                    <a href="#inicio" onmouseover="this.style.color='orange';" onmouseout="this.style.color='white'"
+                        style=" text-decoration: none; color:white">
+                        INICIO
+                    </a>
+                </li>
+                <li style="padding: 10px;">
+                    <a href="#termo" onmouseover="this.style.color='orange';" onmouseout="this.style.color='white';"
+                        style=" text-decoration: none; color:white">
+                        TERMO
+                    </a>
+                </li>
+                <li style="padding: 10px;">
+                    <a href="#estrutura" onmouseover="this.style.color='orange';" onmouseout="this.style.color='white'"
+                        style=" text-decoration: none; color:white">
+                        ESTRUTURA
+                    </a>
+                </li>
+                <li style="padding: 10px;">
+                    <a href="#seu-papel" onmouseover="this.style.color='orange';" onmouseout="this.style.color='white'"
+                        style=" text-decoration: none; color:white">
+                        SEU PAPEL
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Subtítulo 1 -->
+
+        <h2 id="termo">O termo <small>'HTML'</small></h2>
+        <p>
+            Em tradução ao significado de HTML temos uma linguagem de marcação de hipertexto usada para rendeziar
+            páginas na web. Sendo reconhecido como uma linguagem padrão para comunicação entre páginas, os navegadores
+            adotaram a sua interpretação e temos o que chamamos hoje de websites. No entanto, o HTML não se trata de uma
+            linguagem de programação propriamente dita, o termo <strong>linguagem</strong>, indica que é uma forma
+            padrão de marcação textual.
+
+        </p>
+        <blockquote>
+            <sup><img src="img/aspas.png" alt="" width="20" style="margin-right: 20px;"></sup>
+            HTML é uma abreviação de Hypertext
+            Markup Language - Linguagem de Marcação de Hypertexto. Resumindo
+            em uma frase: o HTML é uma linguagem para publicação de conteúdo (texto, imagem, vídeo, áudio e etc) na Web.
+            (W3C.br)
+            <sub><img src="img/aspas.png" alt="" width="20" style="margin-left: 20px; transform: rotate(180deg);"></sub>
+        </blockquote>
+
+        <!-- Subtítulo 2 -->
+
+        <h2 id="estrutura">Estrutura do <small>HTML</small></h2>
+        <p>
+            Sua forma é bem caracterísca: São textos em que, para realizar uma determinada ação nele, é colocado
+            demarcadores com funções determinada a cada tipo de marcador. Parece confuso, porém é simples, os marcadores
+            são chamados de <strong><i>TAGs</i></strong> e cada um faz uma ação específica no texto, podendo ser de
+            <strong>negrito</strong>, <i>itálico</i>, <mark>marcação textual</mark>, <u>sublinhado</u>, entre outros.
+            Além disso ainda temos
+            àqueles que são usados para criar listas, links para outros sites e diversas funções que vemos navegando na
+            internet.
+        </p>
+        <p>
+            A combinação das diversas Tags existentes, a espertice do criador e a necessidade dos usuários fez, e ainda
+            faz, surgir diversas páginas na internet, cheios de conteúdo e de novas técnicas, todos os dias.
+        </p>
+
+        <!-- Subtítulo 3 -->
+
+        <h2 id="seu-papel">Qual é o papel do <small>HTML</small> na internet</h2>
+        <p>
+            A internet vem crescendo constantemente. A cada dia novas interfaces e funções são criadas e também diversos
+            proficionais se qualificam para trabalhar. É certo que a área está com com muita dificuldade de achar mão de
+            obra qualificada para a quantidade de vagas disponíveis, mas ainda é concorrido se desejar entrar no ramo.
+        </p>
+        <p>
+            Áqueles que são qualificados são chamados desenvolvedores, ou programadores. São esses quem criam e recriam
+            a internet como conhecemos. Porém, por trás de toda interface amigável, tem um trabalho excepcionalmente
+            árduo destes profissionais.
+        </p>
+        <p>
+            Para entender melhor: a internet como a vemos e utilizamos parece simples, porém ela é subdividida entre o
+            que a gente vê (chamado de client side ou lado do cliente) e o que a gente não vê, porém sabemos que existe,
+            pois toda vez que realizados uma ação, ela nos responde (chamados de server side ou lado do servidor). Já
+            percebeu que toda vez que realizamos algo na internet, na verdade estamos "conversando" com alguma coisa do
+            outro lado? daí a gente pede algo e esse outro lado somplesmente nos responde. Essa é a ideia 'a grosso
+            modo' que temos da internet.
+        </p>
+        <p>
+            O "lado do servidor" é uma máquina certo?! estas utilizam de impulsos de energia para saber o que fazer e
+            também o que não fazer, porém o "lado do cliente" somos nós, seres vivos e ativos que quer entender tudo que
+            faz. Nesse caso, impulsos elétricos não serão uma boa forma de comunicação. Nesse caso temos a utilização de
+            interface gráfica, textos, cores, imágens, etc. E ai que encontramos o real intuito da utilização do HTML:
+            nos proporcionar uma forma mais interessante de se comunicar com o meio tecnológico.
+        </p>
+    </div>
+
+</body>
+
+</html>
