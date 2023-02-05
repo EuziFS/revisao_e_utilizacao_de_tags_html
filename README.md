@@ -22,4 +22,6 @@ font, del, p, abbr.
  OBS.: Tenho ciência de que o CSS inline não é o mais indicado pelo padrão de código limpo, portanto o conteúdo é somente para estudo.
     
     
+    
+ Por enquanto todos meus arquivos estão na branch Master. Ainda estou estudando sobre git para usá-lo com mais precisão!
  OBRIGADO!
